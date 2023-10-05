@@ -79,7 +79,7 @@ body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #555;
+  color: black;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -136,7 +136,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #333;
+  color: black;
   /* color: #45260a; */
   /* color: #343a40; */
   letter-spacing: -0.5px;
@@ -164,7 +164,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #cf711f;
+  color: #040904;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -193,24 +193,24 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  background-color: #77c664;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  background-color: #3b7a2d;
 }
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #fff;
+  background-color: #77c664;
   color: #555;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #3b7a2d;
 
   /* border: 3px solid #fff; */
 
@@ -220,14 +220,14 @@ body {
 
 .btn--form {
   background-color: #45260a;
-  color: #fdf2e9;
+  color: #ffffff;
   align-self: end;
   padding: 1.2rem;
 }
 
 .btn--form:hover {
   background-color: #fff;
-  color: #555;
+  color: #686464;
 }
 
 .link:link,
@@ -290,3 +290,4 @@ body {
 strong {
   font-weight: 500;
 }
+
