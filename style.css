@@ -37,7 +37,7 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #f5efeb;
 }
 
 .main-nav-link.nav-cta:link,
@@ -45,12 +45,13 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  background-color: #e67e22;
+  background-color: #25a146b8;
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #cf711f;
+  background-color: #eee6de;
+  color:black;
 }
 
 /* MOBILE */
@@ -317,7 +318,7 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  color: #e67e22;
+  color: #1553069f;
 }
 
 .meal-img {
@@ -327,6 +328,7 @@
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
+
 }
 
 /**************************/
@@ -438,7 +440,7 @@
 }
 
 .plan-name {
-  color: #cf711f;
+  color: #117515;
   font-weight: 600;
   font-size: 2rem;
   text-transform: uppercase;
@@ -525,6 +527,7 @@
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
   color: #45260a;
+  background-color: #ceedce;
 }
 
 .cta .heading-secondary {
@@ -540,14 +543,15 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
+ /*  background-image: linear-gradient(
       to right bottom,
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
-    ),
-    url("../img/eating.jpg");
+    ), 
+    url("../img/eating.jpg");*/
   background-size: cover;
   background-position: center;
+  background-color: #ceedce;
 }
 
 .cta-form {
