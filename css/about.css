@@ -1,0 +1,91 @@
+/* Reset default styles and set font-family */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+  color: #444;
+  scroll-behavior: smooth;
+}
+
+/* Container styles for centering content and defining maximum width */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header styles for background and text */
+header {
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(215, 213, 213, 0.6),
+      rgba(68, 67, 67, 0.696)
+    ),
+    url("img2/farmland.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.header-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 9px;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+
+section {
+  padding: 96px 0;
+  background-color: #f7f7f7;
+}
+
+/* Media query for screens with a maximum width of 768px (commonly used for mobile devices) */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+}

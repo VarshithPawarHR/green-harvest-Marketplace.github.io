@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Rubik", sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+nav {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  margin: 20px;
+  justify-content: right;
+  /* background-color: rgb(112, 153, 50); */
+  gap: 20px;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 32px;
+  line-height: 1;
+}
+p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 48px;
+}
+section {
+  padding: 96px 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-top: 32px;
+  color: black;
+}
+header {
+  /* background-color: rgba(255, 169, 9, 0.364); */
+  height: 100vh;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(85, 65, 65, 0.368),
+      rgba(0, 0, 0, 0.495)
+    ),
+    url(img2/shop1.jpg);
+  background-size: contain;
+}
+.header-container {
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+.header-container-inner {
+  width: 50%;
+}
+ul {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+.headers {
+  color: rgb(133, 130, 130);
+  font-weight: 600;
+}
+.outputs {
+  color: rgb(151, 145, 145);
+  font-weight: 600;
+  font-size: 28px;
+}
+.outputcontainer img {
+  margin: 0 auto;
+  width: 1200px;
+  border: 3px solid rgb(192, 173, 173);
+  border-radius: 25px;
+  box-shadow: 0 2.4rem 4.8rem rgba(115, 112, 112, 0.404);
+
+  overflow: hidden;
+  transition: all 0.4s;
+}
+#info-on-libraries {
+  color: rgb(133, 130, 130);
+  font-weight: 600;
+}
+#conclusions {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+#hotdeals {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+#fruits {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.btn:hover {
+  color: rgb(224, 77, 75);
+}
+.conclusion-para {
+  line-height: 1.6;
+  letter-spacing: 0.5;
+  font-size: 22px;
+}
