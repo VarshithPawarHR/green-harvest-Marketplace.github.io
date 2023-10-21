@@ -624,22 +624,17 @@
                   </select>
                 </div>
 
-                <button class="btn btn--form">Sign up now</button>
+                <button class="btn btn--form" button type="submit" onclick="myfunction()">Sign up now</button>
+                <script>
+                  function myfunction(){
+                    alert(" Your Subscription request was sent. We will  send an Email to confirm your subscription and to pay the money . Thank you!")
+                    
+                  }
+                </script>
 
                 <!-- <input type="checkbox" />
                 <input type="number" /> -->
-                <div class="popup" id="popup">
-                  <div class="popup-content" style="font-size: 20px;
-                  line-height: 1.6;
-                  margin-bottom: 48px;">
-                      <h2>Your subscription has been accepted!</h2>
-                      <p>Thank you for signing up with Greenharvest. Enjoy your first delivery for free!</p>
-                      <button class="popup-close" id="popup-close" style="background-color: #77c664;margin-top: 10px; border-radius: 15px;
-                      color: #ffffff;
-                      align-self: end;
-                      padding: 1.2rem;">Close</button>
-                  </div>
-              </div>
+                
               </form>
             </div>
             <div
