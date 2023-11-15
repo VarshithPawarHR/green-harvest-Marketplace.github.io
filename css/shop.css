@@ -1,3 +1,4 @@
+/* Reset and default styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,42 +9,19 @@ html {
   color: white;
   scroll-behavior: smooth;
 }
+
+/* Navbar styles */
 nav {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   display: flex;
   margin: 20px;
   justify-content: right;
-  /* background-color: rgb(112, 153, 50); */
   gap: 20px;
 }
-h1 {
-  font-size: 50px;
-  margin-bottom: 32px;
-  line-height: 1;
-}
-p {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
 
-h2 {
-  font-size: 44px;
-  margin-bottom: 48px;
-}
-section {
-  padding: 96px 0;
-}
-.container {
-  margin: 0 auto;
-  width: 1200px;
-  padding-top: 32px;
-  color: black;
-}
+/* Header styles */
 header {
-  /* background-color: rgba(255, 169, 9, 0.364); */
   height: 100vh;
   position: relative;
   background-image: linear-gradient(
@@ -51,77 +29,107 @@ header {
       rgba(0, 0, 0, 0.495)
     ),
     url(img2/shop1.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
+
+/* Container styles */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 32px;
+  color: black;
+}
+
+/* Other styles with relative units and media queries for responsiveness */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 2.75rem;
+  margin-bottom: 3rem;
+}
+
 .header-container {
-  width: 1200px;
+  width: 95%;
+  max-width: 1200px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
   text-align: center;
 }
-.header-container-inner {
-  width: 50%;
-}
-ul {
-  list-style: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 20px;
-  line-height: 2;
-}
-.headers {
-  color: rgb(133, 130, 130);
-  font-weight: 600;
-}
-.outputs {
-  color: rgb(151, 145, 145);
-  font-weight: 600;
-  font-size: 28px;
-}
+
 .outputcontainer img {
-  margin: 0 auto;
-  width: 1200px;
+  width: 100%;
   border: 3px solid rgb(192, 173, 173);
   border-radius: 25px;
-  box-shadow: 0 2.4rem 4.8rem rgba(115, 112, 112, 0.404);
-
+  box-shadow: 0 0.6rem 1.2rem rgba(115, 112, 112, 0.404);
   overflow: hidden;
   transition: all 0.4s;
 }
-#info-on-libraries {
-  color: rgb(133, 130, 130);
-  font-weight: 600;
-}
-#conclusions {
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-}
-#hotdeals {
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-}
-#fruits {
-  color: rgb(0, 0, 0);
-  font-weight: 600;
-}
+
 .btn:link,
 .btn:visited {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-decoration: none;
   color: white;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border-radius: 10px;
   display: inline-block;
 }
-.btn:hover {
-  color: rgb(224, 77, 75);
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .container,
+  .header-container {
+    width: 90%;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+  }
 }
-.conclusion-para {
-  line-height: 1.6;
-  letter-spacing: 0.5;
-  font-size: 22px;
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  .container,
+  .header-container {
+    width: 85%;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 0.875rem;
+    padding: 0.375rem 1rem;
+  }
 }
