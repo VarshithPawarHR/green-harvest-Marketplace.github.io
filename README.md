@@ -1,7 +1,6 @@
 # green-harvest-Marketplace.github.io
 # GreenHarvest: Your Interactive Vegetable Marketplace
 
-![GreenHarvest Logo](/path/to/your/logo.png) <!-- Include your project logo here --> <!---please donbt forget to add later-->
 
 ## Introduction
 
